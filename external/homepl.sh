@@ -1,3 +1,3 @@
 #!/bin/sh
 
-wget -q -T 5 -O - https://serverfarmer.home.pl/ip.php
+curl -sS -m 5 https://serverfarmer.home.pl/ip.php

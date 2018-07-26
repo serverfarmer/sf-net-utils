@@ -1,5 +1,4 @@
 #!/bin/sh
+. /opt/farm/scripts/functions.install
 
-if [ ! -e /opt/farm/ext/net-utils/external/ip.sh ]; then
-	ln -s ifconfig.sh /opt/farm/ext/net-utils/external/ip.sh
-fi
+remove_link /opt/farm/ext/net-utils/external/ip.sh

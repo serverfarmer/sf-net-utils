@@ -1,3 +1,3 @@
 #!/bin/sh
 
-wget -q -T 5 -O - https://ifconfig.co
+curl -sS -m 5 https://ifconfig.co
