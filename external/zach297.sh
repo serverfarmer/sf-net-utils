@@ -1,3 +1,3 @@
 #!/bin/sh
 
-curl -sS -m 5 https://zach297.com/ip/
+curl -s -m 5 https://zach297.com/ip/
