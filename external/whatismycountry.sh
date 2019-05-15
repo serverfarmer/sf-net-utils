@@ -1,3 +1,3 @@
 #!/bin/sh
 
-curl -s -m 5 https://whatismycountry.com/ |grep 'title="What is my IP"'
+curl -s -m 5 https://whatismycountry.com/ |tr '<' '\n' |grep card-title
